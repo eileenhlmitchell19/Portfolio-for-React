@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+function Navbar({ view, setView }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -20,14 +20,14 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="/">
-              Home
+            <a onClick= {() => setView('bio')} className="nav-link active" aria-current="page" href="#bio">
+              About Me
             </a>
-            <a className="nav-link" href="/">
-              Features
+            <a className="nav-item" href="#aboutme">
+              Link
             </a>
-            <a className="nav-link" href="/gotoEileenproject">
-              Go to a eileen project page
+            <a onClick= {() => setView('portfolio')} className="nav-link" href="#portfolio">
+              Portfolio
             </a>
           </div>
         </div>
