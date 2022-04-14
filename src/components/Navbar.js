@@ -20,13 +20,13 @@ function Navbar({ view, setView }) {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a onClick= {() => setView('bio')} className="nav-link active" aria-current="page" href="#bio">
+            <a onClick= {() => setView('bio')} className="nav-link active" aria-current="page" href="/bio">
               About Me
             </a>
-            <a className="nav-item" href="#aboutme">
+            <a className="nav-link" href="#aboutme">
               Link
             </a>
-            <a onClick= {() => setView('portfolio')} className="nav-link" href="#portfolio">
+            <a onClick= {() => setView('portfolio')} className="nav-link" href="/portfolio">
               Portfolio
             </a>
           </div>
