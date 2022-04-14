@@ -1,30 +1,30 @@
 [
     {
        "id":1,
-       "title":"Password Generator",
-       "url":"https://eileenhlmitchell19.github.io/Password_Generation_Javascript_Basics/",
+       "title":"Employee Tracking",
+       "url":"https://github.com/eileenhlmitchell19/Employee_Tracking",
        "image":"http://placekitten.com/g/640/400",
-       "description": "Kalevala suomeksi on Risto Pottosen tekemä lyhentämätön nykykielinen käännös Kalevalasta. Pottonen työsti käännöstä 10 vuoden ajan. Teos ilmestyi 2009 Kalevalan 160-vuotisjuhlavuonna.[1] Teksti ei ole kalevalamittaista, vaan nykykielistä rytmistä tekstiä."
+       "description": "This application allows users to view tables for a companies employees, roles, and departments. The application also allows users to manipulate data by adding additional members to the team, add new employee roles or departments. Once updated, the user can then view their input into the table. All information can be accessed via the terminal by typing 'node index.js' and following prompts. "
     },
     {
         "id":2,
         "title":"HobbyHub",
         "url":"https://hobbyhub10.herokuapp.com/",
        "image":"http://placekitten.com/g/640/400",
-       "description": "Pottonen perusteli käännöstään seuraavasti. Kalevala oli jo ilmestyessään kieleltään vaikeatajuinen, sillä runot kerättiin kolmen eri murteen tai kielen alueelta. Teoksen sanasto on hyvin laaja käsittäen lähes 8000 eri sanaa. Kalevalasta on sen ilmestymisen jälkeen tehty useita sanakirjoja ja selventäviä versioita. Pottosen mukaan Kalevala suomeksi on ensimmäinen, jossa koko teos on lyhentämättömänä käännetty nykykielelle. Säenumeroinnin avulla tekstiä voi verrata alkuteokseen. Pottosen mukaan teos soveltuu hyvin kouluopetukseen, koska kirja sisältää myös lyhyet selitykset, jotka perustuvat akateemiseen tutkimukseen"
+       "description": "HobbyHub is a webservice that utilizes Javascript and Node to provide users with the ability to log and share similar extracirricular interests. This application uses css, html, javaScript, jQuery, node, sessions, sequelize, bootstrap, handlebars, express, ESlint, sass, and MYSQL."
      },
      {
         "id":3,
         "title":"Day Calendar",
         "url":"https://eileenhlmitchell19.github.io/Dynamic_Day_Calendar/",
        "image":"http://placekitten.com/g/640/400",
-       "description": "Seppänen kritisoi tämän sivun tuloksia tarpeettomista viime vuosikymmenten estimoinneista. Tämä olikin osin aiheellista. Tarkennuksena aiempaan analyysiin, vuodesta 1990 vuoden 2016 loppuun oli rakennettu yhteensä 413,000 kerrostaloasuntoa. Tämä on yli 100,000 enemmän kuin olin aiemmin arvioinut. Pientalojen määrä oli alkuperäisissä laskelmissani oikein. Tämän perusteella tämän sivun laskelmia pitäisi korjata ylöspäin aina lukuun 2,8 miljoonaa."
+       "description": "The Dynamic Day Calendar can be used to easily organize your day. Decipher what time it is, what you would like to schedule by the hour, and use it to stay on track as it follows along your schedule dynamically with sweet color coding!"
      },
      {
         "id":4,
         "title":"Weather Forecast",
         "url":"https://eileenhlmitchell19.github.io/5_Day_Weather_Forecast/",
        "image":"http://placekitten.com/g/640/400",
-       "description": "Tiesitkö, ettei kukaan tiedä tarkalleen montako saunaa Suomessa on? Tässä artikkelissa Kerron saunalaskentojen historiasta ja esitän realistisen arvion saunojen nykylukumäärästä, joka huomioi uusia saunatyyppejä. Ehdotan myös miten saunaluku voitaisiin luotettavasti ja kustannustehokkaasti selvittää. Matkan varrella romutan kaksi saunamyyttia: kolmen miljoonan saunan myytin sekä auto-sauna –suhteen."
+       "description": "This website allows users to check weather data from any city by using the search tool. The user may search for multiple cities and find the 5 day weather forecast for that city with relevant data related to date, temperature, humidity, and wind in that city. The user may also view the current date on a larger screen at the top of the page."
      }
 ]
