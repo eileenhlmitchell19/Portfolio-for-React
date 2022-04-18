@@ -17,7 +17,9 @@ function App() {
   return (
     <>
       <Navbar view={view} setView={setView} />
-  
+      {/* <h1>THIS IS VIEW VALUE: {view}</h1> */}
+      {/* {view === "bio" && <MainBio />}
+      {view === "portfolio" && <PortfolioGrid /> } */}
 
       <MainBio />
       <PortfolioGrid />
