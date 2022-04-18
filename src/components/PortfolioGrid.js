@@ -1,11 +1,20 @@
 import portfolioItems from "../data/portfolio.json";
-import aboutMeimg from '../IMG_0109.jpeg';
+import Employeeimg from '../assets/employee.png';
+import HobbyHubimg from '../assets//brush.jpg';
+import DayCalendarimg from '../assets/computer.jpg';
+import Weatherimg from '../assets/weather.jpg';
 
 console.log('portfolioItems',portfolioItems)
 
 portfolioItems.map((item) => {
     if(item.id === 1){
-        item.calendarImage = aboutMeimg;
+        item.calendarImage = Employeeimg;
+    }else if (item.id === 2){
+        item.calendarImage = HobbyHubimg;
+    }else if (item.id === 3){
+        item.calendarImage = DayCalendarimg;
+    } else if (item.id === 4){
+        item.calendarImage = Weatherimg;
     }else{
         item.calendarImage = "http://placekitten.com/g/640/400"
     }

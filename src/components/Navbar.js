@@ -24,7 +24,7 @@ function Navbar({ view, setView }) {
               About Me
             </a>
             <a className="nav-link" href="#aboutme">
-              Link
+              Contact
             </a>
             <a onClick= {() => setView('portfolio')} className="nav-link" href="/portfolio">
               Portfolio
