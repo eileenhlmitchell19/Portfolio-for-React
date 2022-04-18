@@ -2,7 +2,8 @@
     {
        "id":1,
        "title":"Employee Tracking",
-       "url":"https://github.com/eileenhlmitchell19/Employee_Tracking",
+       "url":"",
+       "github":"https://github.com/eileenhlmitchell19/Employee_Tracking",
        "image":"http://placekitten.com/g/640/400",
        "description": "This application allows users to view tables for a companies employees, roles, and departments. The application also allows users to manipulate data by adding additional members to the team, add new employee roles or departments. Once updated, the user can then view their input into the table. All information can be accessed via the terminal by typing 'node index.js' and following prompts. "
     },
@@ -10,6 +11,7 @@
         "id":2,
         "title":"HobbyHub",
         "url":"https://hobbyhub10.herokuapp.com/",
+        "github":"https://github.com/eileenhlmitchell19/HobbyHub",
        "image":"http://placekitten.com/g/640/400",
        "description": "HobbyHub is a webservice that utilizes Javascript and Node to provide users with the ability to log and share similar extracirricular interests. This application uses css, html, javaScript, jQuery, node, sessions, sequelize, bootstrap, handlebars, express, ESlint, sass, and MYSQL."
      },
@@ -17,6 +19,7 @@
         "id":3,
         "title":"Day Calendar",
         "url":"https://eileenhlmitchell19.github.io/Dynamic_Day_Calendar/",
+        "github":"https://github.com/eileenhlmitchell19/Dynamic_Day_Calendar",
        "image":"http://placekitten.com/g/640/400",
        "description": "The Dynamic Day Calendar can be used to easily organize your day. Decipher what time it is, what you would like to schedule by the hour, and use it to stay on track as it follows along your schedule dynamically with sweet color coding!"
      },
@@ -24,6 +27,7 @@
         "id":4,
         "title":"Weather Forecast",
         "url":"https://eileenhlmitchell19.github.io/5_Day_Weather_Forecast/",
+        "github":"https://github.com/eileenhlmitchell19/5_Day_Weather_Forecast",
        "image":"http://placekitten.com/g/640/400",
        "description": "This website allows users to check weather data from any city by using the search tool. The user may search for multiple cities and find the 5 day weather forecast for that city with relevant data related to date, temperature, humidity, and wind in that city. The user may also view the current date on a larger screen at the top of the page."
      }
