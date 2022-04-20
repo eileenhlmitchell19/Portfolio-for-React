@@ -13,12 +13,14 @@ By: Eileen Mitchell
 https://github.com/eileenhlmitchell19/portfolio-for-react
 
 ## Link to Website URL
-https://eileenhlmitchell19.github.io/Project_Portfolio2/
+https://eileenhlmitchell19.github.io/portfolio-for-react/
 
 ## Description
 This website allows users to brows through my growing portfolio of coding projects. The project portfolio is a third attempt at my original portfolio website, with a new layout, code updates, bug fixes and additional material.
 
 In order to scroll to work, just click on the item you are looking for and you can view the github repo or the deployed page, if it exists. 
+
+You can also add an email and contact info for more information
 
 Feel free to brows my github, linkin, read about me, etc. 
 
@@ -48,5 +50,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 # Photos of Website
-![Project connection](./Images/Snip1.jpg)
-![Project connection](./Images/snip2.jpg)
+![Project connection](./Photo1.jpg)
+![Project connection](./Photo2.jpg)
