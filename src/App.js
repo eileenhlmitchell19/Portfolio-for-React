@@ -3,13 +3,14 @@ import MainBio from './components/Navbar';
 import Navbar from './components/MainBio';
 import PortfolioGrid from './components/PortfolioGrid';
 import Footer from './components/Footer';
-
+import ContactBar from './components/ContactBar';
 
 function App() {
 
-  const [ view, setView ] = useState(() => {
-    console.log(document.location.hash)
-  return document.location.hash.slice(1);
+  const [ view, setView ] = useState((element) => {
+    console.log('element', element)
+    //console.log(document.location.hash)
+    //return document.location.hash.slice(1);
   });
 
   console.log('view', view)
@@ -23,6 +24,7 @@ function App() {
 
       <MainBio />
       <PortfolioGrid />
+      <ContactBar />
       <Footer />
     </>
   );

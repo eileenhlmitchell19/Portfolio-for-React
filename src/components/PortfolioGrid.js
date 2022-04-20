@@ -27,7 +27,7 @@ console.log('new array portfolioItems',portfolioItems)
 
 const PortfolioGrid = () => {
     return (
-        <section className="bg-primary">
+        <section>
             <div className="container p-3">
                 <div className="row g-3">
                     {portfolioItems.map(({ id, title, url, github,image, description, calendarImage }) => (

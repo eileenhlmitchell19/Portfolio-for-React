@@ -5,7 +5,6 @@ function Navbar({ view, setView }) {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          Navbar
         </a>
         <button
           className="navbar-toggler"
@@ -23,7 +22,7 @@ function Navbar({ view, setView }) {
             <a onClick= {() => setView('bio')} className="nav-link active" aria-current="page" href="/bio">
               About Me
             </a>
-            <a className="nav-link" href="#aboutme">
+            <a onClick= {() => setView('contact')} className="nav-link"  href="/contact">
               Contact
             </a>
             <a onClick= {() => setView('portfolio')} className="nav-link" href="/portfolio">
